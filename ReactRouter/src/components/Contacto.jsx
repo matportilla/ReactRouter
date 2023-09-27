@@ -1,15 +1,15 @@
 import React from 'react'
 import Form from 'react-bootstrap/Form';
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
+// import Container from 'react-bootstrap/Container';
+// import Nav from 'react-bootstrap/Nav';
+// import Navbar from 'react-bootstrap/Navbar';
+// import NavDropdown from 'react-bootstrap/NavDropdown';
 import Button from 'react-bootstrap/Button';
 
 const Contacto = () => {
   return (
     <>
-    <Navbar expand="lg" className="bg-danger">
+    {/* <Navbar expand="lg" className="bg-danger">
       <Container>
         <Navbar.Brand href="#home"></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -27,7 +27,7 @@ const Contacto = () => {
             </NavDropdown>
         </Navbar.Collapse>
       </Container>
-    </Navbar>
+    </Navbar> */}
     <h1 className='m-4'>Cuentanos, ¿en que te podemos ayudar?</h1>
     <Form>
     <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">

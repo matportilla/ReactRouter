@@ -1,13 +1,14 @@
 import React from 'react'
-// import Container from 'react-bootstrap/Container';
-// import Nav from 'react-bootstrap/Nav';
-// import Navbar from 'react-bootstrap/Navbar';
-// import NavDropdown from 'react-bootstrap/NavDropdown';
+import Container from 'react-bootstrap/Container';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
 
-const Home = () => {
+
+const MenuNavBar = () => {
   return (
-   <>
-   {/* <Navbar expand="lg" className="bg-danger">
+    <>
+    <Navbar expand="lg" className="bg-danger">
       <Container>
         <Navbar.Brand href="#home"></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -25,14 +26,9 @@ const Home = () => {
             </NavDropdown>
         </Navbar.Collapse>
       </Container>
-    </Navbar> */}
-    <div>
-        <h1 className='m-4'>Bienvenido a Happy Cake</h1>
-        <h6 className='m-2'>El lugar de los pasteles</h6>
-        <img className='img-fluid, pastel' src="https://static-00.iconduck.com/assets.00/birthday-cake-icon-2048x2048-ulq09lo1.png" alt="Pastel" />
-    </div>
-   </>
+    </Navbar>
+    </>
   )
 }
 
-export default Home
+export default MenuNavBar
