@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import { Link } from 'react-router-dom';
 
 
 const MenuNavBar = () => {
@@ -14,8 +15,8 @@ const MenuNavBar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav, collapsecolor">
           <Nav className="me-auto">
-            <Nav.Link className='text-light' href="#home">Home</Nav.Link>
-            <Nav.Link className='text-light' href="#link">Contacto</Nav.Link>
+            <Link to="/" className='text-light pe-2 text-decoration-none'>Home</Link>
+            <Link to="/Contacto" className='text-light pe-2 text-decoration-none'>Contacto</Link>
           </Nav>
           <NavDropdown title="HappyCake" id="basic-nav-dropdown-" className='d-flex justify-content-end text-light'>
               <NavDropdown.Item href="#action/3.1">Rico</NavDropdown.Item>
