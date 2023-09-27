@@ -17,7 +17,6 @@ const Contacto = () => {
     </Form.Group>
   </Form>
   <Button variant="danger">Enviar</Button>{' '}
-  <p className='fw-lighter m-4'>MothWork para Desafio latam_</p>
   </>
   );
 }
