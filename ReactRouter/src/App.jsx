@@ -1,14 +1,16 @@
 import './App.css'
 import Home from './components/home'
 import Contacto from './components/Contacto'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
  
   return (
     <>
-    <Home/>
-    <Contacto/>
+    <Routes>
+      <Route path='/' element= {<Home/>}/>
+      <Route path='/Contacto' element= {<Contacto/>}/>
+    </Routes>
     </>
   )
 }
